@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.14" icons="true">  
+  <object id="1" language="java" name="java.util.concurrent.ThreadPoolExecutor.Worker" project="acceleratorcms" 
+    file="C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar" binary="true" label="worker" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="5169" width="0" x="0" y="78"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="org.apache.tomcat.util.threads.ThreadPoolExecutor" project="platform" 
+    file="/platform/tomcat/lib/tomcat-coyote.jar" binary="true" label="threadPoolExecutor" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="4">      
+      <position height="5127" width="0" x="0" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="8" language="java" name="org.apache.coyote.http11.Http11Processor" project="platform" 
+    file="/platform/tomcat/lib/tomcat-coyote.jar" binary="true" label="http11Processor" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="5085" width="0" x="0" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="11" language="java" name="org.apache.catalina.connector.CoyoteAdapter" project="platform" 
+    file="/platform/tomcat/lib/catalina.jar" binary="true" label="coyoteAdapter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="5043" width="0" x="0" y="141"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" name="org.apache.catalina.valves.AccessLogValve" project="platform" 
+    file="/platform/tomcat/lib/catalina.jar" binary="true" label="accessLogValve" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="13">      
+      <position height="5001" width="0" x="0" y="162"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="org.apache.catalina.core.StandardEngineValve" project="platform" 
+    file="/platform/tomcat/lib/catalina.jar" binary="true" label="standardEngineValve" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="16">      
+      <position height="4959" width="0" x="0" y="183"/>    
+    </execution>  
+  </object>  
+  <object id="20" language="java" name="org.apache.catalina.valves.ErrorReportValve" project="platform" 
+    file="/platform/tomcat/lib/catalina.jar" binary="true" label="errorReportValve" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="19">      
+      <position height="4917" width="0" x="0" y="204"/>    
+    </execution>  
+  </object>  
+  <object id="23" language="java" name="org.apache.catalina.core.StandardHostValve" project="platform" 
+    file="/platform/tomcat/lib/catalina.jar" binary="true" label="standardHostValve" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="22">      
+      <position height="4875" width="0" x="0" y="225"/>    
+    </execution>  
+  </object>  
+  <object id="26" language="java" name="org.apache.catalina.core.StandardContextValve" project="platform" 
+    file="/platform/tomcat/lib/catalina.jar" binary="true" label="standardContextValve" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="25">      
+      <position height="4833" width="0" x="0" y="246"/>    
+    </execution>  
+  </object>  
+  <object id="29" language="java" name="org.apache.catalina.core.StandardWrapperValve" project="platform" 
+    file="/platform/tomcat/lib/catalina.jar" binary="true" label="standardWrapperValve" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="28">      
+      <position height="4791" width="0" x="0" y="267"/>    
+    </execution>  
+  </object>  
+  <object id="32" language="java" name="org.apache.catalina.core.ApplicationFilterChain" project="platform" 
+    file="/platform/tomcat/lib/catalina.jar" binary="true" label="applicationFilterChain" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="31">      
+      <position height="4749" width="0" x="0" y="288"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="4686" width="0" x="0" y="330"/>    
+    </execution>    
+    <execution id="37">      
+      <position height="4519" width="0" x="0" y="434"/>    
+    </execution>    
+    <execution id="39">      
+      <position height="4456" width="0" x="0" y="476"/>    
+    </execution>    
+    <execution id="42">      
+      <position height="4247" width="0" x="0" y="601"/>    
+    </execution>    
+    <execution id="44">      
+      <position height="4184" width="0" x="0" y="643"/>    
+    </execution>    
+    <execution id="47">      
+      <position height="4017" width="0" x="0" y="747"/>    
+    </execution>    
+    <execution id="49">      
+      <position height="3954" width="0" x="0" y="789"/>    
+    </execution>    
+    <execution id="52">      
+      <position height="3860" width="0" x="0" y="841"/>    
+    </execution>    
+    <execution id="54">      
+      <position height="3797" width="0" x="0" y="883"/>    
+    </execution>    
+    <execution id="57">      
+      <position height="1359" width="0" x="0" y="2355"/>    
+    </execution>    
+    <execution id="59">      
+      <position height="1296" width="0" x="0" y="2397"/>    
+    </execution>  
+  </object>  
+  <object id="62" language="java" name="de.hybris.platform.servicelayer.web.XSSFilter" project="platform" 
+    file="/platform/ext/core/bin/coreserver.jar" binary="true" label="xssFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="36">      
+      <position height="4634" width="0" x="0" y="361"/>    
+    </execution>    
+    <execution id="64">      
+      <position height="4571" width="0" x="0" y="403"/>    
+    </execution>  
+  </object>  
+  <object id="66" language="java" name="org.springframework.web.filter.DelegatingFilterProxy" project="platform" 
+    file="/platform/ext/core/lib/spring-web-4.3.3.RELEASE.jar" binary="true" label="delegatingFilterProxy" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="41">      
+      <position height="4404" width="0" x="0" y="507"/>    
+    </execution>    
+    <execution id="68">      
+      <position height="4341" width="0" x="0" y="549"/>    
+    </execution>  
+  </object>  
+  <object id="71" language="java" name="com.hybris.kvm.storefront.filters.AcceleratorAddOnFilter" 
+    project="kvmstorefront" file="/kvmstorefront/web/src/com/hybris/kvm/storefront/filters/AcceleratorAddOnFilter.java" 
+    binary="false" label="acceleratorAddOnFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="70">      
+      <position height="4289" width="0" x="0" y="580"/>    
+    </execution>    
+    <execution id="73">      
+      <position height="3316" width="0" x="0" y="1175"/>    
+    </execution>  
+  </object>  
+  <object id="76" language="java" name="org.springframework.web.filter.CharacterEncodingFilter" project="platform" 
+    file="/platform/ext/core/lib/spring-web-4.3.3.RELEASE.jar" binary="true" label="characterEncodingFilter" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="46">      
+      <position height="4132" width="0" x="0" y="674"/>    
+    </execution>    
+    <execution id="78">      
+      <position height="4069" width="0" x="0" y="716"/>    
+    </execution>  
+  </object>  
+  <object id="80" language="java" name="org.apache.tomcat.websocket.server.WsFilter" project="platform" 
+    file="/platform/tomcat/lib/tomcat7-websocket.jar" binary="true" label="wsFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="51">      
+      <position height="3902" width="0" x="0" y="820"/>    
+    </execution>  
+  </object>  
+  <object id="82" language="java" name="org.springframework.web.filter.DelegatingFilterProxy" project="platform" 
+    file="/platform/ext/core/lib/spring-web-4.3.3.RELEASE.jar" binary="true" label="delegatingFilterProxy1" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="56">      
+      <position height="3745" width="0" x="0" y="914"/>    
+    </execution>    
+    <execution id="84">      
+      <position height="3682" width="0" x="0" y="956"/>    
+    </execution>  
+  </object>  
+  <object id="87" language="java" name="com.hybris.kvm.storefront.filters.UrlPathFilter" project="kvmstorefront" 
+    file="/kvmstorefront/web/src/com/hybris/kvm/storefront/filters/UrlPathFilter.java" binary="false" 
+    label="urlPathFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="86">      
+      <position height="3630" width="0" x="0" y="987"/>    
+    </execution>    
+    <execution id="89">      
+      <position height="3567" width="0" x="0" y="1029"/>    
+    </execution>  
+  </object>  
+  <object id="92" language="java" name="de.hybris.platform.servicelayer.web.PlatformFilterChain" project="platform" 
+    file="/platform/ext/core/bin/coreserver.jar" binary="true" label="platformFilterChain" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="91">      
+      <position height="3515" width="0" x="0" y="1060"/>    
+    </execution>    
+    <execution id="94">      
+      <position height="3452" width="0" x="0" y="1102"/>    
+    </execution>  
+  </object>  
+  <object id="97" language="java" name="de.hybris.platform.servicelayer.web.Log4JFilter" project="platform" 
+    file="/platform/ext/core/bin/coreserver.jar" binary="true" label="log4JFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="96">      
+      <position height="3400" width="0" x="0" y="1133"/>    
+    </execution>  
+  </object>  
+  <object id="100" language="java" name="de.hybris.platform.servicelayer.web.SessionFilter" project="platform" 
+    file="/platform/ext/core/bin/coreserver.jar" binary="true" label="sessionFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="99">      
+      <position height="3358" width="0" x="0" y="1154"/>    
+    </execution>  
+  </object>  
+  <object id="102" language="java" name="com.hybris.kvm.storefront.filters.RequestLoggerFilter" project="kvmstorefront" 
+    file="/kvmstorefront/web/src/com/hybris/kvm/storefront/filters/RequestLoggerFilter.java" binary="false" 
+    label="requestLoggerFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="75">      
+      <position height="3274" width="0" x="0" y="1196"/>    
+    </execution>    
+    <execution id="104">      
+      <position height="3211" width="0" x="0" y="1238"/>    
+    </execution>  
+  </object>  
+  <object id="107" language="java" name="com.hybris.kvm.storefront.filters.cms.CMSSiteFilter" project="kvmstorefront" 
+    file="/kvmstorefront/web/src/com/hybris/kvm/storefront/filters/cms/CMSSiteFilter.java" binary="false" 
+    label="cmsSiteFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="106">      
+      <position height="3159" width="0" x="0" y="1269"/>    
+    </execution>    
+    <execution id="109">      
+      <position height="3096" width="0" x="0" y="1311"/>    
+    </execution>  
+  </object>  
+  <object id="112" language="java" name="com.hybris.kvm.storefront.filters.StorefrontFilter" project="kvmstorefront" 
+    file="/kvmstorefront/web/src/com/hybris/kvm/storefront/filters/StorefrontFilter.java" binary="false" 
+    label="storefrontFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="111">      
+      <position height="3044" width="0" x="0" y="1342"/>    
+    </execution>    
+    <execution id="114">      
+      <position height="2981" width="0" x="0" y="1384"/>    
+    </execution>  
+  </object>  
+  <object id="117" language="java" name="com.hybris.kvm.storefront.filters.UrlEncoderFilter" project="kvmstorefront" 
+    file="/kvmstorefront/web/src/com/hybris/kvm/storefront/filters/UrlEncoderFilter.java" binary="false" 
+    label="urlEncoderFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="116">      
+      <position height="2929" width="0" x="0" y="1415"/>    
+    </execution>    
+    <execution id="119">      
+      <position height="2866" width="0" x="0" y="1457"/>    
+    </execution>  
+  </object>  
+  <object id="122" language="java" name="com.hybris.kvm.storefront.filters.FileUploadFilter" project="kvmstorefront" 
+    file="/kvmstorefront/web/src/com/hybris/kvm/storefront/filters/FileUploadFilter.java" binary="false" 
+    label="fileUploadFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="121">      
+      <position height="2814" width="0" x="0" y="1488"/>    
+    </execution>    
+    <execution id="124">      
+      <position height="2751" width="0" x="0" y="1530"/>    
+    </execution>  
+  </object>  
+  <object id="127" language="java" name="de.hybris.platform.personalizationservices.filter.CxPersonalizationFilter" 
+    project="personalizationservices" file="/personalizationservices/bin/personalizationservicesserver.jar" 
+    binary="true" label="cxPersonalizationFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="126">      
+      <position height="2699" width="0" x="0" y="1561"/>    
+    </execution>    
+    <execution id="129">      
+      <position height="2636" width="0" x="0" y="1603"/>    
+    </execution>  
+  </object>  
+  <object id="132" language="java" name="org.springframework.security.web.FilterChainProxy" project="platform" 
+    file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" label="filterChainProxy" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="131">      
+      <position height="2584" width="0" x="0" y="1634"/>    
+    </execution>    
+    <execution id="134">      
+      <position height="2521" width="0" x="0" y="1676"/>    
+    </execution>  
+  </object>  
+  <object id="137" language="java" name="org.springframework.security.web.access.channel.ChannelProcessingFilter" 
+    project="platform" file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="channelProcessingFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="136">      
+      <position height="2469" width="0" x="0" y="1707"/>    
+    </execution>  
+  </object>  
+  <object id="140" language="java" name="org.springframework.security.web.context.SecurityContextPersistenceFilter" 
+    project="platform" file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="securityContextPersistenceFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="139">      
+      <position height="2427" width="0" x="0" y="1728"/>    
+    </execution>  
+  </object>  
+  <object id="143" language="java" 
+    name="org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter" project="platform" 
+    file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="webAsyncManagerIntegrationFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="142">      
+      <position height="2385" width="0" x="0" y="1749"/>    
+    </execution>    
+    <execution id="145">      
+      <position height="2322" width="0" x="0" y="1791"/>    
+    </execution>  
+  </object>  
+  <object id="148" language="java" name="org.springframework.security.web.header.HeaderWriterFilter" project="platform" 
+    file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" label="headerWriterFilter" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="147">      
+      <position height="2270" width="0" x="0" y="1822"/>    
+    </execution>    
+    <execution id="150">      
+      <position height="2207" width="0" x="0" y="1864"/>    
+    </execution>  
+  </object>  
+  <object id="153" language="java" name="org.springframework.security.web.authentication.logout.LogoutFilter" 
+    project="platform" file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="logoutFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="152">      
+      <position height="2155" width="0" x="0" y="1895"/>    
+    </execution>  
+  </object>  
+  <object id="156" language="java" 
+    name="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter" project="platform" 
+    file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="usernamePasswordAuthenticationFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="155">      
+      <position height="2113" width="0" x="0" y="1916"/>    
+    </execution>  
+  </object>  
+  <object id="159" language="java" name="org.springframework.security.web.savedrequest.RequestCacheAwareFilter" 
+    project="platform" file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="requestCacheAwareFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="158">      
+      <position height="2071" width="0" x="0" y="1937"/>    
+    </execution>  
+  </object>  
+  <object id="162" language="java" 
+    name="org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter" project="platform" 
+    file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="securityContextHolderAwareRequestFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="161">      
+      <position height="2029" width="0" x="0" y="1958"/>    
+    </execution>  
+  </object>  
+  <object id="165" language="java" 
+    name="org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter" project="platform" 
+    file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="rememberMeAuthenticationFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="164">      
+      <position height="1987" width="0" x="0" y="1979"/>    
+    </execution>  
+  </object>  
+  <object id="168" language="java" name="org.springframework.security.web.authentication.AnonymousAuthenticationFilter" 
+    project="platform" file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="anonymousAuthenticationFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="167">      
+      <position height="1945" width="0" x="0" y="2000"/>    
+    </execution>  
+  </object>  
+  <object id="171" language="java" name="org.springframework.security.web.session.SessionManagementFilter" 
+    project="platform" file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="sessionManagementFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="170">      
+      <position height="1903" width="0" x="0" y="2021"/>    
+    </execution>  
+  </object>  
+  <object id="174" language="java" name="org.springframework.security.web.access.ExceptionTranslationFilter" 
+    project="platform" file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="exceptionTranslationFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="173">      
+      <position height="1861" width="0" x="0" y="2042"/>    
+    </execution>  
+  </object>  
+  <object id="177" language="java" name="org.springframework.security.web.access.intercept.FilterSecurityInterceptor" 
+    project="platform" file="/platform/ext/core/lib/spring-security-web-4.1.3.RELEASE.jar" binary="true" 
+    label="filterSecurityInterceptor" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="176">      
+      <position height="1819" width="0" x="0" y="2063"/>    
+    </execution>    
+    <execution id="179">      
+      <position height="1756" width="0" x="0" y="2105"/>    
+    </execution>  
+  </object>  
+  <object id="182" language="java" name="com.hybris.kvm.storefront.filters.AnonymousCheckoutFilter" 
+    project="kvmstorefront" file="/kvmstorefront/web/src/com/hybris/kvm/storefront/filters/AnonymousCheckoutFilter.java" 
+    binary="false" label="anonymousCheckoutFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="181">      
+      <position height="1704" width="0" x="0" y="2136"/>    
+    </execution>    
+    <execution id="184">      
+      <position height="1641" width="0" x="0" y="2178"/>    
+    </execution>  
+  </object>  
+  <object id="187" language="java" name="com.hybris.kvm.storefront.filters.CartRestorationFilter" 
+    project="kvmstorefront" file="/kvmstorefront/web/src/com/hybris/kvm/storefront/filters/CartRestorationFilter.java" 
+    binary="false" label="cartRestorationFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="186">      
+      <position height="1589" width="0" x="0" y="2209"/>    
+    </execution>    
+    <execution id="189">      
+      <position height="1526" width="0" x="0" y="2251"/>    
+    </execution>  
+  </object>  
+  <object id="192" language="java" name="com.hybris.kvm.storefront.filters.CustomerLocationRestorationFilter" 
+    project="kvmstorefront" 
+    file="/kvmstorefront/web/src/com/hybris/kvm/storefront/filters/CustomerLocationRestorationFilter.java" 
+    binary="false" label="customerLocationRestorationFilter" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="191">      
+      <position height="1474" width="0" x="0" y="2282"/>    
+    </execution>    
+    <execution id="194">      
+      <position height="1411" width="0" x="0" y="2324"/>    
+    </execution>  
+  </object>  
+  <object id="196" language="java" name="org.springframework.web.servlet.DispatcherServlet" project="platform" 
+    file="/platform/ext/core/lib/spring-webmvc-4.3.3.RELEASE.jar" binary="true" label="dispatcherServlet" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="61">      
+      <position height="1244" width="0" x="0" y="2428"/>    
+    </execution>    
+    <execution id="198">      
+      <position height="1181" width="0" x="0" y="2470"/>    
+    </execution>    
+    <execution id="200">      
+      <position height="1108" width="0" x="0" y="2522"/>    
+    </execution>    
+    <execution id="202">      
+      <position height="1035" width="0" x="0" y="2574"/>    
+    </execution>    
+    <execution id="204">      
+      <position height="962" width="0" x="0" y="2626"/>    
+    </execution>    
+    <execution id="206">      
+      <position height="889" width="0" x="0" y="2678"/>    
+    </execution>    
+    <execution id="208">      
+      <position height="816" width="0" x="0" y="2730"/>    
+    </execution>  
+  </object>  
+  <object id="211" language="java" 
+    name="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" project="platform" 
+    file="/platform/ext/core/lib/spring-webmvc-4.3.3.RELEASE.jar" binary="true" label="requestMappingHandlerAdapter" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="210">      
+      <position height="764" width="0" x="0" y="2761"/>    
+    </execution>    
+    <execution id="213">      
+      <position height="701" width="0" x="0" y="2803"/>    
+    </execution>    
+    <execution id="215">      
+      <position height="628" width="0" x="0" y="2855"/>    
+    </execution>  
+  </object>  
+  <object id="218" language="java" 
+    name="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod" project="platform" 
+    file="/platform/ext/core/lib/spring-webmvc-4.3.3.RELEASE.jar" binary="true" label="servletInvocableHandlerMethod" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="217">      
+      <position height="576" width="0" x="0" y="2886"/>    
+    </execution>    
+    <execution id="220">      
+      <position height="513" width="0" x="0" y="2928"/>    
+    </execution>    
+    <execution id="222">      
+      <position height="440" width="0" x="0" y="2980"/>    
+    </execution>  
+  </object>  
+  <object id="225" language="java" name="sun.reflect.DelegatingMethodAccessorImpl" project="acceleratorcms" 
+    file="C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar" binary="true" label="delegatingMethodAccessorImpl" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="224">      
+      <position height="388" width="0" x="0" y="3011"/>    
+    </execution>  
+  </object>  
+  <object id="228" language="java" name="sun.reflect.NativeMethodAccessorImpl" project="acceleratorcms" 
+    file="C:/Program Files/Java/jdk1.8.0_91/jre/lib/rt.jar" binary="true" label="nativeMethodAccessorImpl" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="227">      
+      <position height="346" width="0" x="0" y="3032"/>    
+    </execution>    
+    <execution id="230">      
+      <position height="283" width="0" x="0" y="3074"/>    
+    </execution>  
+  </object>  
+  <object id="233" language="java" name="com.hybris.kvm.storefront.controllers.misc.AddToCartController" 
+    project="kvmstorefront" 
+    file="/kvmstorefront/web/src/com/hybris/kvm/storefront/controllers/misc/AddToCartController.java" binary="false" 
+    label="addToCartController" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="232">      
+      <position height="231" width="0" x="0" y="3105"/>    
+    </execution>  
+  </object>  
+  <object id="236" language="java" name="de.hybris.platform.commercefacades.order.impl.DefaultCartFacade" 
+    project="commercefacades" 
+    file="/commercefacades/src/de/hybris/platform/commercefacades/order/impl/DefaultCartFacade.java" binary="false" 
+    label="defaultCartFacade" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="235">      
+      <position height="189" width="0" x="0" y="3126"/>    
+    </execution>  
+  </object>  
+  <object id="239" language="java" name="de.hybris.platform.commerceservices.order.impl.DefaultCommerceCartService" 
+    project="commerceservices" 
+    file="/commerceservices/src/de/hybris/platform/commerceservices/order/impl/DefaultCommerceCartService.java" 
+    binary="false" label="defaultCommerceCartService" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="238">      
+      <position height="147" width="0" x="0" y="3147"/>    
+    </execution>  
+  </object>  
+  <object id="242" language="java" 
+    name="de.hybris.platform.commerceservices.order.impl.DefaultCommerceAddToCartStrategy" project="commerceservices" 
+    file="/commerceservices/src/de/hybris/platform/commerceservices/order/impl/DefaultCommerceAddToCartStrategy.java" 
+    binary="false" label="defaultCommerceAddToCartStrategy" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="241">      
+      <position height="105" width="0" x="0" y="3168"/>    
+    </execution>  
+  </object>  
+  <object id="245" language="java" 
+    name="de.hybris.platform.commerceservices.order.impl.DefaultCommerceCartCalculationStrategy" 
+    project="commerceservices" 
+    file="/commerceservices/src/de/hybris/platform/commerceservices/order/impl/DefaultCommerceCartCalculationStrategy.java" 
+    binary="false" label="defaultCommerceCartCalculationStrategy" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="244">      
+      <position height="63" width="0" x="0" y="3189"/>    
+    </execution>  
+  </object>  
+  <object id="248" language="java" name="de.hybris.platform.order.impl.DefaultCalculationService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultCalculationService.java" 
+    binary="false" label="defaultCalculationService" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="247">      
+      <position height="21" width="0" x="0" y="3210"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="runWorker(java.util.concurrent.ThreadPoolExecutor.Worker):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" 
+    operation="process(org.apache.tomcat.util.net.SocketWrapper&lt;S&gt;):org.apache.tomcat.util.net.AbstractEndpoint.Handler.SocketState" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" operation="service(org.apache.coyote.Request,org.apache.coyote.Response):void" asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="12" operation="invoke(org.apache.catalina.connector.Request,org.apache.catalina.connector.Response):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="15" operation="invoke(org.apache.catalina.connector.Request,org.apache.catalina.connector.Response):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="18" operation="invoke(org.apache.catalina.connector.Request,org.apache.catalina.connector.Response):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="21" operation="invoke(org.apache.catalina.connector.Request,org.apache.catalina.connector.Response):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="24" operation="invoke(org.apache.catalina.connector.Request,org.apache.catalina.connector.Response):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="27" operation="invoke(org.apache.catalina.connector.Request,org.apache.catalina.connector.Response):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="28"/>  
+  </message>  
+  <message id="30" operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="33" operation="internalDoFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="38" operation="internalDoFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="39"/>  
+  </message>  
+  <message id="40" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="41"/>  
+  </message>  
+  <message id="43" operation="internalDoFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="48" operation="internalDoFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="49"/>  
+  </message>  
+  <message id="50" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="51"/>  
+  </message>  
+  <message id="53" operation="internalDoFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="54"/>  
+  </message>  
+  <message id="55" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="56"/>  
+  </message>  
+  <message id="58" operation="internalDoFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="59"/>  
+  </message>  
+  <message id="60" operation="service(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="61"/>  
+  </message>  
+  <message id="63" 
+    operation="processPatternsAndDoFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="65" operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="64"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="67" 
+    operation="invokeDelegate(javax.servlet.Filter,javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="68"/>  
+  </message>  
+  <message id="69" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>  
+  <message id="72" operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="70"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="74" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="75"/>  
+  </message>  
+  <message id="77" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="78"/>  
+  </message>  
+  <message id="79" operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="47"/>  
+  </message>  
+  <message id="81" operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="52"/>  
+  </message>  
+  <message id="83" 
+    operation="invokeDelegate(javax.servlet.Filter,javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="84"/>  
+  </message>  
+  <message id="85" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="84"/>    
+    <end type="TARGET" refId="86"/>  
+  </message>  
+  <message id="88" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="86"/>    
+    <end type="TARGET" refId="89"/>  
+  </message>  
+  <message id="90" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="89"/>    
+    <end type="TARGET" refId="91"/>  
+  </message>  
+  <message id="93" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="91"/>    
+    <end type="TARGET" refId="94"/>  
+  </message>  
+  <message id="95" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="94"/>    
+    <end type="TARGET" refId="96"/>  
+  </message>  
+  <message id="98" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="96"/>    
+    <end type="TARGET" refId="99"/>  
+  </message>  
+  <message id="101" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="99"/>    
+    <end type="TARGET" refId="73"/>  
+  </message>  
+  <message id="103" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="75"/>    
+    <end type="TARGET" refId="104"/>  
+  </message>  
+  <message id="105" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="104"/>    
+    <end type="TARGET" refId="106"/>  
+  </message>  
+  <message id="108" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="106"/>    
+    <end type="TARGET" refId="109"/>  
+  </message>  
+  <message id="110" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="109"/>    
+    <end type="TARGET" refId="111"/>  
+  </message>  
+  <message id="113" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="111"/>    
+    <end type="TARGET" refId="114"/>  
+  </message>  
+  <message id="115" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="114"/>    
+    <end type="TARGET" refId="116"/>  
+  </message>  
+  <message id="118" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="116"/>    
+    <end type="TARGET" refId="119"/>  
+  </message>  
+  <message id="120" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="119"/>    
+    <end type="TARGET" refId="121"/>  
+  </message>  
+  <message id="123" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="121"/>    
+    <end type="TARGET" refId="124"/>  
+  </message>  
+  <message id="125" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="124"/>    
+    <end type="TARGET" refId="126"/>  
+  </message>  
+  <message id="128" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="126"/>    
+    <end type="TARGET" refId="129"/>  
+  </message>  
+  <message id="130" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="129"/>    
+    <end type="TARGET" refId="131"/>  
+  </message>  
+  <message id="133" 
+    operation="doFilterInternal(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="131"/>    
+    <end type="TARGET" refId="134"/>  
+  </message>  
+  <message id="135" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="134"/>    
+    <end type="TARGET" refId="136"/>  
+  </message>  
+  <message id="138" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="136"/>    
+    <end type="TARGET" refId="139"/>  
+  </message>  
+  <message id="141" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="139"/>    
+    <end type="TARGET" refId="142"/>  
+  </message>  
+  <message id="144" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="142"/>    
+    <end type="TARGET" refId="145"/>  
+  </message>  
+  <message id="146" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="145"/>    
+    <end type="TARGET" refId="147"/>  
+  </message>  
+  <message id="149" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="147"/>    
+    <end type="TARGET" refId="150"/>  
+  </message>  
+  <message id="151" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="150"/>    
+    <end type="TARGET" refId="152"/>  
+  </message>  
+  <message id="154" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="152"/>    
+    <end type="TARGET" refId="155"/>  
+  </message>  
+  <message id="157" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="155"/>    
+    <end type="TARGET" refId="158"/>  
+  </message>  
+  <message id="160" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="158"/>    
+    <end type="TARGET" refId="161"/>  
+  </message>  
+  <message id="163" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="161"/>    
+    <end type="TARGET" refId="164"/>  
+  </message>  
+  <message id="166" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="164"/>    
+    <end type="TARGET" refId="167"/>  
+  </message>  
+  <message id="169" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="167"/>    
+    <end type="TARGET" refId="170"/>  
+  </message>  
+  <message id="172" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="170"/>    
+    <end type="TARGET" refId="173"/>  
+  </message>  
+  <message id="175" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="173"/>    
+    <end type="TARGET" refId="176"/>  
+  </message>  
+  <message id="178" operation="invoke(org.springframework.security.web.FilterInvocation):void" asynchronous="false">    
+    <end type="SOURCE" refId="176"/>    
+    <end type="TARGET" refId="179"/>  
+  </message>  
+  <message id="180" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="179"/>    
+    <end type="TARGET" refId="181"/>  
+  </message>  
+  <message id="183" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="181"/>    
+    <end type="TARGET" refId="184"/>  
+  </message>  
+  <message id="185" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="184"/>    
+    <end type="TARGET" refId="186"/>  
+  </message>  
+  <message id="188" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="186"/>    
+    <end type="TARGET" refId="189"/>  
+  </message>  
+  <message id="190" 
+    operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="189"/>    
+    <end type="TARGET" refId="191"/>  
+  </message>  
+  <message id="193" 
+    operation="doFilterInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.servlet.FilterChain):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="191"/>    
+    <end type="TARGET" refId="194"/>  
+  </message>  
+  <message id="195" operation="doFilter(javax.servlet.ServletRequest,javax.servlet.ServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="194"/>    
+    <end type="TARGET" refId="57"/>  
+  </message>  
+  <message id="197" 
+    operation="service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="198"/>  
+  </message>  
+  <message id="199" 
+    operation="service(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="198"/>    
+    <end type="TARGET" refId="200"/>  
+  </message>  
+  <message id="201" 
+    operation="doPost(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="200"/>    
+    <end type="TARGET" refId="202"/>  
+  </message>  
+  <message id="203" 
+    operation="processRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="202"/>    
+    <end type="TARGET" refId="204"/>  
+  </message>  
+  <message id="205" 
+    operation="doService(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="204"/>    
+    <end type="TARGET" refId="206"/>  
+  </message>  
+  <message id="207" 
+    operation="doDispatch(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="206"/>    
+    <end type="TARGET" refId="208"/>  
+  </message>  
+  <message id="209" 
+    operation="handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.Object):org.springframework.web.servlet.ModelAndView" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="208"/>    
+    <end type="TARGET" refId="210"/>  
+  </message>  
+  <message id="212" 
+    operation="handleInternal(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.web.method.HandlerMethod):org.springframework.web.servlet.ModelAndView" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="210"/>    
+    <end type="TARGET" refId="213"/>  
+  </message>  
+  <message id="214" 
+    operation="invokeHandlerMethod(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,org.springframework.web.method.HandlerMethod):org.springframework.web.servlet.ModelAndView" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="213"/>    
+    <end type="TARGET" refId="215"/>  
+  </message>  
+  <message id="216" 
+    operation="invokeAndHandle(org.springframework.web.context.request.ServletWebRequest,org.springframework.web.method.support.ModelAndViewContainer,java.lang.Object[]):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="215"/>    
+    <end type="TARGET" refId="217"/>  
+  </message>  
+  <message id="219" 
+    operation="invokeForRequest(org.springframework.web.context.request.NativeWebRequest,org.springframework.web.method.support.ModelAndViewContainer,java.lang.Object[]):java.lang.Object" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="217"/>    
+    <end type="TARGET" refId="220"/>  
+  </message>  
+  <message id="221" operation="doInvoke(java.lang.Object[]):java.lang.Object" asynchronous="false">    
+    <end type="SOURCE" refId="220"/>    
+    <end type="TARGET" refId="222"/>  
+  </message>  
+  <message id="223" operation="invoke(java.lang.Object,java.lang.Object[]):java.lang.Object" asynchronous="false">    
+    <end type="SOURCE" refId="222"/>    
+    <end type="TARGET" refId="224"/>  
+  </message>  
+  <message id="226" operation="invoke(java.lang.Object,java.lang.Object[]):java.lang.Object" asynchronous="false">    
+    <end type="SOURCE" refId="224"/>    
+    <end type="TARGET" refId="227"/>  
+  </message>  
+  <message id="229" operation="invoke0(java.lang.reflect.Method,java.lang.Object,java.lang.Object[]):java.lang.Object" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="227"/>    
+    <end type="TARGET" refId="230"/>  
+  </message>  
+  <message id="231" 
+    operation="addToCart(java.lang.String,org.springframework.ui.Model,de.hybris.platform.acceleratorstorefrontcommons.forms.AddToCartForm,org.springframework.validation.BindingResult):java.lang.String" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="230"/>    
+    <end type="TARGET" refId="232"/>  
+  </message>  
+  <message id="234" 
+    operation="addToCart(java.lang.String,long):de.hybris.platform.commercefacades.order.data.CartModificationData" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="232"/>    
+    <end type="TARGET" refId="235"/>  
+  </message>  
+  <message id="237" 
+    operation="addToCart(de.hybris.platform.commerceservices.service.data.CommerceCartParameter):de.hybris.platform.commerceservices.order.CommerceCartModification" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="235"/>    
+    <end type="TARGET" refId="238"/>  
+  </message>  
+  <message id="240" 
+    operation="addToCart(de.hybris.platform.commerceservices.service.data.CommerceCartParameter):de.hybris.platform.commerceservices.order.CommerceCartModification" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="238"/>    
+    <end type="TARGET" refId="241"/>  
+  </message>  
+  <message id="243" 
+    operation="calculateCart(de.hybris.platform.commerceservices.service.data.CommerceCartParameter):boolean" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="241"/>    
+    <end type="TARGET" refId="244"/>  
+  </message>  
+  <message id="246" operation="calculate(de.hybris.platform.core.model.order.AbstractOrderModel):void" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="244"/>    
+    <end type="TARGET" refId="247"/>  
+  </message>
+</sequence-diagram>

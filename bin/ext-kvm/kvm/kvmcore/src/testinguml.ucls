@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="de.hybris.platform.order.impl.DefaultCartService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultCartService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="621" width="450" x="4340" y="768"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="de.hybris.platform.order.impl.DefaultDeliveryModeService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultDeliveryModeService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="419" x="1520" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="de.hybris.platform.order.impl.DefaultCalculationService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultCalculationService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1089" width="594" x="146" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="de.hybris.platform.order.impl.InMemoryCartFactory" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/InMemoryCartFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="270" x="780" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="de.hybris.platform.order.impl.DefaultAbstractOrderEntryTypeService" 
+    project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultAbstractOrderEntryTypeService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="390" x="1090" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="de.hybris.platform.order.impl.DefaultPaymentModeService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultPaymentModeService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="283" x="1979" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="de.hybris.platform.order.impl.DefaultCartEntryService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultCartEntryService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="160" x="5452" y="768"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="de.hybris.platform.order.impl.DefaultCartFactory" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultCartFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="270" x="2302" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="de.hybris.platform.order.impl.DefaultZoneDeliveryModeService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultZoneDeliveryModeService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="580" x="1520" y="768"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="de.hybris.platform.order.impl.DefaultPaymentInfoService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultPaymentInfoService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="335" x="2612" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="de.hybris.platform.order.impl.DefaultTaxService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultTaxService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="253" x="2987" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="de.hybris.platform.order.impl.DefaultAbstractOrderService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultAbstractOrderService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="693" width="534" x="4830" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="de.hybris.platform.order.impl.DefaultAbstractOrderEntryService" 
+    project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultAbstractOrderEntryService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="419" x="5452" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="de.hybris.platform.order.impl.DefaultDiscountService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultDiscountService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="362" x="3280" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="15" language="java" name="de.hybris.platform.order.impl.CartFactory" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/CartFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="63" width="131" x="3682" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="16" language="java" name="de.hybris.platform.order.impl.DefaultOrderEntryService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultOrderEntryService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="169" x="5652" y="768"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="de.hybris.platform.order.impl.CloneAbstractOrderStrategy" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/CloneAbstractOrderStrategy.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="529" x="3853" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="de.hybris.platform.order.impl.DefaultOrderService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultOrderService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="387" width="582" x="4830" y="768"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="de.hybris.platform.order.impl.DefaultQuoteService" project="platform" 
+    file="/platform/ext/platformservices/src/de/hybris/platform/order/impl/DefaultQuoteService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="405" width="368" x="4422" y="-361"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="13"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
